@@ -15,9 +15,9 @@
         }
       });
 
-      $backToTop.click(function () {
-        $('body').animate({ scrollTop: 0 });
-      });
+    $backToTop.click(function () {
+      $('body,html').animate({ scrollTop: 0 });
+    });
     }
   };
 
@@ -26,7 +26,7 @@
       if ($.fancybox){
         $('.post').each(function () {
           $(this).find('img').each(function () {
-            $(this).wrap('<a class="fancybox" href="' + this.src + '" title="' + this.alt + '"></a>')
+            $(this).wrap('<a class="fancybox" href="' + this.src + '" title="' + this.alt + '"></a>');
           });
         });
 
