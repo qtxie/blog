@@ -3,7 +3,7 @@
 # ===========================================
 
 # Site creation time
-since: 2014
+since: 2017
 
 # Custom your favicon.ico in `site/source`
 favicon: /favicon.ico
@@ -17,8 +17,9 @@ rss: default
 # Menu Settings
 # ===========================================
 menu:
-  Archives: /archives
-  About: /about
+  归档: /archives
+  分类: /categories
+  关于: /about
 
 # ===========================================
 # Widget Settings
@@ -33,8 +34,21 @@ widget:
   Categories: false
 
 widget_custom:
-    title:
-    content:
+    title: 圈子
+    content: <ul class="social-list"> 
+      <li class="social-item">
+        <a href="mailto:xqtxyz@gmail.com" title="Email"><span class="iconfont icon-email"></span></a>
+      </li>
+      <li class="social-item">
+        <a href="//github.com/qtxie" title="GitHub"><span class="iconfont icon-github"></span></a>
+      </li>
+      <li class="social-item">
+        <a href="//space.bilibili.com/26105834" title="Bilibili"><span class="iconfont icon-bili"></span></a>
+      </li>
+      <li class="social-item">
+        <a href="//www.x--x.red/atom.xml" title="RSS"><span class="iconfont icon-rss"></span></a>
+      </li>
+      </ul>
 
 # ===========================================
 # Theme Settings

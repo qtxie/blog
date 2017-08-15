@@ -4,6 +4,9 @@
 
 .post-content {
   margin-bottom: $content-margin-bottom;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 
   @for $i from 1 through 6 {
     h#{$i} {
@@ -43,14 +46,15 @@
     margin: 2em 0;
     padding-left: 10px;
     position: relative;
-    color: rgba(0, 0, 0, 0.6);
-    background-color: #fff;
-    border-left: 2px solid #aaa;
+    border-left: 4px solid #aaa;
     p {
       margin: 0;
     }
   }
-
+	.note.tip {border-left-color: #fa0;}
+	.note.info {border-left-color: #0af;}
+	.note.warn {border-left-color: #F00;}
+	.note-title {margin:1em 0;display:block;font-size:1.1em;font-weight:700;}
   img {
     display: inline-block;
     max-width: 100%;

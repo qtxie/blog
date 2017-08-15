@@ -39,6 +39,7 @@
 }
 .icon-email:before {
   content: "\e605";
+  font-size: 1.2em;
   position: relative;
   top: -2px;
 }
@@ -50,11 +51,18 @@
 }
 .icon-github:before {
   content: "\e606";
+  font-size: 1.2em;
   position: relative;
-  top: -3px;
+  top: -2px;
+}
+.icon-bili:before {
+  content: "\e608"; 
+  position: relative;
+  top: -2px;
 }
 .icon-rss:before {
   content: "\e604";
+  position: relative;
 }
 .icon-google:before {
   content: "\e609";

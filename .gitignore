@@ -4,4 +4,5 @@ db.json
 *.log
 node_modules/
 public/
+themes/hexo-theme-even-master
 .deploy*/

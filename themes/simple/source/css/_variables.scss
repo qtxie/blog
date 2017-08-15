@@ -34,12 +34,12 @@ $black: #0a0a0a !default;
 $white: #fefefe !default;
 $light-gray: #eee !default;
 $gray: #cacaca !default;
-$dark-gray: #aaa !default;
+$dark-gray: #8a8a8a !default;
 
 
 // ========== Global ========== //
 // Text color of the body.
-$global-font-color: rgba(0, 0, 0, 0.75) !default;
+$global-font-color: #444 !default;
 
 // Font size attribute applied to '<html>' and '<body>'.
 $global-font-size: 16px !default;
@@ -61,7 +61,7 @@ $global-content-margin: 0 auto !default;
 $global-lineheight: 1.5 !default;
 
 // Font family of the site.
-$global-font-family: 'Source Sans Pro', 'Helvetica Neue', 'Microsoft Yahei', Arial, sans-serif !default;
+$global-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji" !default;
 
 // Background color of the site.
 $global-background: $white !default;
@@ -82,7 +82,7 @@ $global-headings: (
 $header-padding: 20px 20px !default;
 
 //Font size of the site title.
-$site-title-size: 24px !default;
+$site-title-size: 26px !default;
 
 // Header-height.
 $site-header-height: 65px !default;
@@ -93,7 +93,7 @@ $site-header-height: 65px !default;
 $post-list-margin-bottom: 20px !default;
 
 // Padding of the post.
-$post-padding: 40px 0 !default;
+$post-padding: 1.5em 0 !default;
 
 // Border top of the post + post.
 $post-border: 1px solid $light-gray !default;
@@ -146,10 +146,10 @@ $content-margin-bottom: 40px !default;
 $code-color: #000 !default;
 
 // Font size of code.
-$code-font-size: 13px !default;
+$code-font-size: 14px !default;
 
 // Font family of the code.
-$code-font-family: Consolas, Monaco, Menlo, Consolas, monospace !default;
+$code-font-family: "Source Code Pro", Monaco, Menlo, Consolas, monospace !default;
 
 // Color of code highlight, solarized.
 $code-highlight-color: (

@@ -4,7 +4,7 @@
     line-height: 1.4;
     font-size: $post-title-font-size;
     font-weight: $post-title-font-weight;
-    font-family: $global-font-family;
+    font-family: Athelas, STHeiti, Microsoft Yahei, serif;
   }
 
   .post-link {
@@ -25,3 +25,15 @@
          margin: 0 0 16px;
      }
  }
+
+  .read-more {
+    .read-more-link {
+      color: #555;
+      font-size: 1.1em;
+      font-family: $global-font-family;
+
+      &:hover {
+        border-bottom: 1px solid #555;
+      }
+    }
+  }
